@@ -38,6 +38,7 @@ The final system uses:
 
 ## Project Structure
 
+```
 MLBD-Recommendation-System/
 │
 ├── app.py
@@ -52,6 +53,7 @@ MLBD-Recommendation-System/
 ├── movies.csv
 │
 └── README.md
+```
 
 ---
 
