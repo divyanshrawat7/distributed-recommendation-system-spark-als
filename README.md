@@ -1,6 +1,6 @@
-# 🎧 Distributed Recommendation System (MLBD Project)
+# Distributed Recommendation System
 
-## 👋 About the Project
+## About the Project
 
 This project is a recommendation system built using machine learning and big data concepts.  
 The goal is to suggest items (movies/music) to users based on their past interactions.
@@ -15,7 +15,7 @@ The final system uses:
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - Uses **ALS (Spark MLlib)** for distributed recommendations  
 - Includes **Cosine Similarity** and **SVD** for comparison  
@@ -25,7 +25,7 @@ The final system uses:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.10  
 - PySpark (Apache Spark)  
@@ -36,7 +36,7 @@ The final system uses:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 MLBD-Recommendation-System/
 │
@@ -55,7 +55,7 @@ MLBD-Recommendation-System/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Install Requirements
 
@@ -93,7 +93,7 @@ pip install numpy==1.26.4 pandas scikit-learn scikit-surprise pyspark streamlit
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 Run the Streamlit app:
 
@@ -105,7 +105,7 @@ http://localhost:8501
 
 ---
 
-## ⚠️ Common Issues
+## Common Issues
 
 **1. Java Gateway Error**  
 - Make sure Java is installed  
@@ -120,7 +120,7 @@ pip install scikit-surprise
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 **ALS (Main Model)**  
 - Distributed collaborative filtering  
@@ -134,19 +134,20 @@ pip install scikit-surprise
 
 ---
 
-## ⚡ Optimization
+## Optimization
 
 We used caching (`@st.cache_resource`) to avoid retraining the model again and again, which improves performance.
 
 ---
 
-## 🎯 Final Note
+## Final Note
 
 This project demonstrates how machine learning models can be combined with distributed systems to build scalable recommendation systems.
 
 ---
 
-## 👨‍💻 Contributors
+## Contributors
 
-- Divyansh Rawat  
-- Prapti  
+- Divyansh Rawat (M25CSA009)
+- Prapti Halder (M25CSA022)
+- Pranav Kumar J (M25CSA021)
