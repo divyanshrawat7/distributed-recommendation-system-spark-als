@@ -5,6 +5,8 @@
 This project is a recommendation system built using machine learning and big data concepts.  
 The goal is to suggest items (movies/music) to users based on their past interactions.
 
+Dataset: MovieLens dataset (ratings.csv, movies.csv)
+
 At first, we implemented basic recommendation techniques like **Cosine Similarity** and **SVD**.  
 Later, we improved the system by integrating **Apache Spark MLlib’s ALS algorithm**, which allows the system to scale and work efficiently on larger datasets.
 
@@ -73,8 +75,8 @@ Add to PATH:
 
 ### 2. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/MLBD-Recommendation-System.git  
-cd MLBD-Recommendation-System
+git clone https://github.com/divyanshrawat7/distributed-recommendation-system-spark-als.git
+cd distributed-recommendation-system-spark-als
 
 ---
 
